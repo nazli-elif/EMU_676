@@ -1,0 +1,92 @@
+
+<<< setup
+
+
+<<< generate
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+Tried aggregator 1 time.
+MIP Presolve eliminated 84 rows and 18 columns.
+MIP Presolve modified 524 coefficients.
+Reduced MIP has 291 rows, 146 columns, and 1226 nonzeros.
+Reduced MIP has 118 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,94 ticks)
+Found incumbent of value 178,940000 after 0,00 sec. (1,90 ticks)
+Probing time = 0,00 sec. (0,47 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 291 rows, 146 columns, and 1226 nonzeros.
+Reduced MIP has 118 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,02 sec. (0,97 ticks)
+Probing time = 0,00 sec. (0,48 ticks)
+Clique table members: 728.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0,00 sec. (0,89 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          178,9400        0,0000           100,00%
+      0     0       75,8400     7      178,9400       75,8400       78   57,62%
+*     0+    0                          111,3300       75,8400            31,88%
+      0     0       75,8400     7      111,3300      Cuts: 19       92   31,88%
+      0     0       81,3950     7      111,3300      Cuts: 17      104   26,89%
+*     0+    0                          110,1900       81,3950            26,13%
+      0     0       84,0217     7      110,1900      Cuts: 30      119   23,75%
+      0     0       89,7610     7      110,1900      Cuts: 32      149   18,54%
+      0     0       91,3000     7      110,1900      Cuts: 33      178   17,14%
+      0     0       92,4376     7      110,1900      Cuts: 39      210   16,11%
+      0     0       93,5833     7      110,1900      Cuts: 43      249   15,07%
+      0     0       93,8300     7      110,1900      Cuts: 29      263   14,85%
+      0     0       93,8300     7      110,1900      Cuts: 14      269   14,85%
+      0     0       95,2400     7      110,1900       Cuts: 7      320   13,57%
+      0     0       96,3300     7      110,1900      Cuts: 19      341   12,58%
+      0     0       98,1417     7      110,1900      Cuts: 27      364   10,93%
+      0     0       99,6367     7      110,1900      Cuts: 46      413    9,58%
+      0     0      101,3329     7      110,1900      Cuts: 31      456    8,04%
+      0     0      105,3000     7      110,1900      Cuts: 27      473    4,44%
+*     0+    0                          110,1900      105,3000             4,44%
+      0     0        cutoff            110,1900      110,1900      473    0,00%
+Elapsed time = 0,08 sec. (33,02 ticks, tree = 0,01 MB, solutions = 4)
+
+GUB cover cuts applied:  2
+Clique cuts applied:  17
+Implied bound cuts applied:  26
+Flow cuts applied:  1
+Mixed integer rounding cuts applied:  1
+Zero-half cuts applied:  15
+
+Root node processing (before b&c):
+  Real time             =    0,08 sec. (33,04 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    0,08 sec. (33,04 ticks)
+
+<<< solve
+
+
+OBJECTIVE: 110.19
+=== SOLUTION ===
+Objective (best incumbent): 110.19
+Best bound                : 110.19
+Optimality gap %          : 0
+Physical docking stations opened:
+  Physical dock 2  (fixed cost: 29.9)
+
+UAV routes:
+  UAV 0: 0 -> P2[bat=8.07] -> P0[bat=40] -> 0
+  UAV 1: 0 -> D2(v4)[bat=40] -> P1[bat=21.37] -> P3[bat=0] -> D2(v3)[bat=8] -> P0[bat=40] -> 0
+
+Recharge events:
+  UAV 1 recharged at physical dock 2
+
+<<< post process
+
+
+<<< done
+

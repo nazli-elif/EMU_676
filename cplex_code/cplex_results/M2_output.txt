@@ -1,0 +1,126 @@
+
+<<< setup
+
+
+<<< generate
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+Tried aggregator 1 time.
+MIP Presolve eliminated 273 rows and 54 columns.
+MIP Presolve modified 3892 coefficients.
+Reduced MIP has 2029 rows, 928 columns, and 9272 nonzeros.
+Reduced MIP has 832 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (6,56 ticks)
+Found incumbent of value 459,310000 after 0,02 sec. (15,12 ticks)
+Probing fixed 3 vars, tightened 0 bounds.
+Probing time = 0,01 sec. (8,57 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 3 rows and 3 columns.
+Reduced MIP has 2026 rows, 925 columns, and 9257 nonzeros.
+Reduced MIP has 829 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (7,51 ticks)
+Probing time = 0,00 sec. (3,04 ticks)
+Clique table members: 5381.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0,02 sec. (4,39 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          459,3100        0,0000           100,00%
+      0     0      169,4967    30      459,3100      169,4967       93   63,10%
+      0     0      176,3800    30      459,3100      Cuts: 73      151   61,60%
+      0     0      176,3800    30      459,3100      Cuts: 53      186   61,60%
+      0     0      180,7633    30      459,3100      Cuts: 32      235   60,64%
+      0     0      180,7633    30      459,3100       Cuts: 9      262   60,64%
+*     0+    0                          290,2400      180,7633            37,72%
+      0     2      180,7633    36      290,2400      185,9850      262   35,92%
+Elapsed time = 0,31 sec. (139,14 ticks, tree = 0,02 MB, solutions = 2)
+*    12+    5                          289,1100      185,9850            35,67%
+*    49+    4                          286,7800      185,9850            35,15%
+*   856   526      integral     0      285,5400      198,7412    20833   30,40%
+   1049   635      264,6052    37      285,5400      203,8917    25141   28,59%
+*  1753+ 1089                          265,2200      206,0862            22,30%
+*  2081  1031      integral     0      249,5900      206,8813    49474   17,11%
+   2406   902      235,7777    18      249,5900      209,1025    56316   16,22%
+
+Performing restart 1
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve modified 570 coefficients.
+Reduced MIP has 2026 rows, 925 columns, and 9194 nonzeros.
+Reduced MIP has 829 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (8,26 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 2026 rows, 925 columns, and 9194 nonzeros.
+Reduced MIP has 829 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (7,63 ticks)
+Represolve time = 0,03 sec. (29,14 ticks)
+*  3362+    0                          249,2900      212,5000            14,76%
+   3362     0      186,5157    43      249,2900      Cuts: 23    78995   14,76%
+   3362     0      187,6271    43      249,2900      Cuts: 23    79027   14,76%
+   3362     0      187,9647    43      249,2900      Cuts: 18    79057   14,76%
+   3362     0      188,7795    43      249,2900      Cuts: 27    79112   14,76%
+   3362     0      188,8423    43      249,2900      Cuts: 23    79157   14,76%
+   3362     2      188,8423    50      249,2900      212,5000    79157   14,76%
+   3433    36      245,4485    28      249,2900      212,5000    80723   14,76%
+   3937   349      223,2627    27      249,2900      212,5000    89550   14,76%
+   4913   803      242,4853    19      249,2900      212,5000   104085   14,76%
+   6210  1422      247,5959    23      249,2900      213,8388   126235   14,22%
+   7516  2361      240,7117    31      249,2900      217,3008   152274   12,83%
+   8691  2785      243,1719    13      249,2900      219,7400   172167   11,85%
+  12725  4569      228,9655    18      249,2900      223,7618   260461   10,24%
+Elapsed time = 6,97 sec. (3631,64 ticks, tree = 3,83 MB, solutions = 10)
+* 13568  4983      integral     0      249,2100      224,5800   293748    9,88%
+  16597  5799        cutoff            249,2100      227,1428   362077    8,85%
+  19827  5933      242,4450    14      249,2100      230,1376   452702    7,65%
+  22731  5252        cutoff            249,2100      233,1320   537290    6,45%
+  26133  3127        cutoff            249,2100      238,3552   637326    4,36%
+
+GUB cover cuts applied:  19
+Clique cuts applied:  13
+Cover cuts applied:  32
+Implied bound cuts applied:  92
+Mixed integer rounding cuts applied:  39
+Zero-half cuts applied:  16
+Lift and project cuts applied:  2
+Gomory fractional cuts applied:  16
+
+Root node processing (before b&c):
+  Real time             =    0,30 sec. (138,43 ticks)
+Parallel b&c, 8 threads:
+  Real time             =   17,34 sec. (7867,00 ticks)
+  Sync time (average)   =    2,92 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =   17,64 sec. (8005,43 ticks)
+
+<<< solve
+
+
+OBJECTIVE: 249.21
+=== SOLUTION ===
+Objective (best incumbent): 249.21
+Best bound                : 249.21
+Optimality gap %          : 0
+Physical docking stations opened:
+  Physical dock 2  (fixed cost: 26.3)
+
+UAV routes:
+  UAV 0: 0 -> D2(v4)[bat=56.64] -> P6[bat=28.21] -> P3[bat=16.85] -> P5[bat=0] -> D2(v3)[bat=60] -> P0[bat=60] -> 0
+  UAV 1: 0 -> P2[bat=19.13] -> P0[bat=60] -> 0
+  UAV 2: 0 -> P4[bat=32.04] -> P1[bat=13.33] -> P7[bat=6] -> P8[bat=0] -> D2(v3)[bat=0] -> D2(v4)[bat=14.86] -> P0[bat=60] -> 0
+
+Recharge events:
+  UAV 0 recharged at physical dock 2
+  UAV 2 recharged at physical dock 2
+
+<<< post process
+
+
+<<< done
+
