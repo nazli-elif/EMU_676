@@ -51,9 +51,7 @@ EMU_676/
 │   ├── L1.dat                 # Large instance 1  (P=12,D=5, K=4, Q=80)
 │   ├── L2.dat                 # Large instance 2  (P=15,D=5, K=4, Q=80)
 │   ├── L3.dat                 # Large instance 3  (P=20,D=6, K=5, Q=100)
-│   ├── run_all_cplex.bat      # Batch runner — S/M instances
-│   ├── run_all_cplex_L2.bat   # Batch runner — L2 (30-min limit)
-│   └── run_all_cplex_L3.bat   # Batch runner — L3 (30-min limit)
+│   ├── run_all_cplex.bat      # Batch runner — S/M/L instances
 │
 └── python_code/
     ├── dogrufixedbataryafull.py   # Core GA implementation
