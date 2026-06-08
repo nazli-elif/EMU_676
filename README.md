@@ -86,7 +86,7 @@ EMU_676/
 | Medium | 234.06        | 296.86     | +24.99%     | 3 / 3 ✓       |
 | Large  | 480.17        | 626.47     | +29.50%     | 0 / 3 †       |
 
-† 30-minute time limit applied; residual MIP gaps: L1 22.86%, L2 16.78%, L3 25.72%.
+† 15-minute time limit applied; residual MIP gaps: L1 22.86%, L2 16.78%, L3 25.72%.
 
 CPLEX solves all small and medium instances to **proven optimality** in under 3 minutes. For large instances, the GA is the only practical method, delivering feasible solutions in under 8 minutes (7 seeds total) with a coefficient of variation below 4%.
 
